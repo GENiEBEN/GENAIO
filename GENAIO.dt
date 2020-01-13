@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-16"?>
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT48.2554483S" SolutionTotalViewTime="PT22M26.3175662S" SolutionTotalDebugTime="PT6.5694295S">
+  <FileVersion>
+    <Major>1</Major>
+    <Minor>0</Minor>
+  </FileVersion>
+  <SolutionFolder>E:\OneDrive\Coding\Apps\GENAIO</SolutionFolder>
+  <SolutionCreattionDate>2020-01-12T21:46:30.4942948+00:00</SolutionCreattionDate>
+  <ProjectsCreatedDateList>
+    <ProjectCreated>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\cheevz.csproj</ProjectName>
+      <CreatedDate>2019-08-09T21:41:10.1167722+01:00</CreatedDate>
+    </ProjectCreated>
+  </ProjectsCreatedDateList>
+  <SessionTimeList />
+  <LastSessionTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT9.6192659S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\App.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:44:40.5519792+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT22.0091179S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindow.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:44:20.6821369+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT14.3147035S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\View_Ach_Steam.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:43:52.1993371+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT40.0618229S" EditActiveTime="PT11.0713807S">
+      <ModifiedDate>2020-01-13T20:43:30.7696676+00:00</ModifiedDate>
+      <ModifiedBy>v</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\View_Gaming_AcDec.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:43:15.2302402+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+  </LastSessionTimeList>
+  <TotalTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT9.6192659S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\App.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:44:40.5519792+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6.5694295S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-01-12T22:10:57.7205075+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT28.0738955S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindow.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:55:16.2664064+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M12.0064141S" EditActiveTime="PT3.9115372S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindowViewModel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:49:31.1231255+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT14.3147035S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\View_Ach_Steam.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:43:52.1993371+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT40.0618229S" EditActiveTime="PT11.0713807S">
+      <ModifiedDate>2020-01-13T20:43:30.7696676+00:00</ModifiedDate>
+      <ModifiedBy>v</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\View_Gaming_AcDec.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:43:15.2302402+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT16M42.2424615S" EditActiveTime="PT33.2725304S">
+      <ModifiedDate>2020-01-12T22:11:12.7503042+00:00</ModifiedDate>
+      <ModifiedBy>v</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>4</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\ViewModel\ViewModelLocator.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:54:43.1938726+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+  </TotalTimeList>
+  <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT9.6192659S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\App.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:44:40.5519792+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT22.0091179S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindow.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:44:20.6821369+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT14.3147035S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\View_Ach_Steam.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:43:52.1993371+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT40.0618229S" EditActiveTime="PT11.0713807S">
+      <ModifiedDate>2020-01-13T20:43:30.7696676+00:00</ModifiedDate>
+      <ModifiedBy>v</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\View_Gaming_AcDec.xaml.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T20:43:15.2302402+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT8M12.6425413S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\ViewModel\ViewModelLocator.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-13T05:29:21.75271+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6.5694295S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2020-01-12T22:10:57.7205075+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M30.0197365S" EditActiveTime="PT16.437525S">
+      <ModifiedDate>2020-01-12T22:11:12.7503042+00:00</ModifiedDate>
+      <ModifiedBy>v</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\ViewModel\ViewModelLocator.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T22:06:39.6737466+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M26.2332801S" EditActiveTime="PT16.8350054S">
+      <ModifiedDate>2020-01-12T22:04:20.6168891+00:00</ModifiedDate>
+      <ModifiedBy>v</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\ViewModel\ViewModelLocator.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T22:01:40.6418234+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6.0657749S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindow.xaml</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:55:16.2664064+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M33.3498951S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\ViewModel\ViewModelLocator.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:54:43.1938726+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M27.5687625S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindowViewModel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:52:56.080391+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M44.4376516S" EditActiveTime="PT3.9115372S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>E:\OneDrive\Coding\Apps\GENAIO\MainWindowViewModel.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>E:\OneDrive\Coding\Apps\GENAIO\GENAIO.csproj</ProjectName>
+      <CreatedDate>2020-01-12T21:49:31.1231255+00:00</CreatedDate>
+      <ViewedBy>v</ViewedBy>
+    </DevTrackerDataItem>
+  </HistoryTimeList>
+</DevTrackerData>
