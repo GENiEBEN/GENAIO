@@ -10,7 +10,7 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns:local="clr-namespace:TreeViewMenu"
         mc:Ignorable="d"
-        Title="cheevz.com" Height="720" Width="1280"
+        Title="GENAIO" Height="720" Width="1280"
         WindowStartupLocation="CenterScreen">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
@@ -229,7 +229,7 @@
                         </Setter>
                     </Trigger>
                     <!--
-                    NB: These triggers mostly work, however they can cause the selected item to change when keyboard focus moves off of the tree view
+                    NB: These triggers mostly work, however they can cause the selected item to change when keyboard focus moves off of the tree Ach
                     <Trigger Property="IsSelected" Value="True">
                         <Setter Property="IsExpanded" Value="True" />
                     </Trigger>
@@ -250,7 +250,7 @@
     </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="250" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
@@ -267,106 +267,6 @@
                     </Grid>
                 </TreeViewItem.Header>
             </TreeViewItem>
-            <TreeViewItem Tag="Search">
-                <TreeViewItem.Header>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                            <ColumnDefinition SharedSizeGroup="Text" />
-                        </Grid.ColumnDefinitions>
-                        <materialDesign:PackIcon Kind="Magnify" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Search" Grid.Column="1" />
-                    </Grid>
-                </TreeViewItem.Header>
-                <TreeViewItem Tag="Booking">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Booking" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Client">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Client" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Supplier">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Supplier" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                    <TreeViewItem Tag="Supplier 1">
-                        <TreeViewItem.Header>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                    <ColumnDefinition SharedSizeGroup="Text" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock Text="Supplier 1" Grid.Column="1" Margin="20,0,0,0"/>
-                            </Grid>
-                        </TreeViewItem.Header>
-                    </TreeViewItem>
-                    <TreeViewItem Tag="Supplier 2">
-                        <TreeViewItem.Header>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                    <ColumnDefinition SharedSizeGroup="Text" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock Text="Supplier 2" Grid.Column="1" Margin="20,0,0,0"/>
-                            </Grid>
-                        </TreeViewItem.Header>
-                    </TreeViewItem>
-                    <TreeViewItem Tag="Supplier 3">
-                        <TreeViewItem.Header>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                    <ColumnDefinition SharedSizeGroup="Text" />
-                                </Grid.ColumnDefinitions>
-                                <TextBlock Text="Supplier 3" Grid.Column="1" Margin="20,0,0,0"/>
-                            </Grid>
-                        </TreeViewItem.Header>
-                    </TreeViewItem>
-                </TreeViewItem>
-                <TreeViewItem Tag="Contract">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Contract" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Package">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Package" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-            </TreeViewItem>
             <TreeViewItem Tag="GameSpecificTools">
                 <TreeViewItem.Header>
                     <Grid>
@@ -374,11 +274,11 @@
                             <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
                             <ColumnDefinition SharedSizeGroup="Text" />
                         </Grid.ColumnDefinitions>
-                        <materialDesign:PackIcon Kind="Trophy" HorizontalAlignment="Center"/>
+                        <materialDesign:PackIcon Kind="Wrench" HorizontalAlignment="Center"/>
                         <TextBlock Text="Game Specific Tools" Grid.Column="1" />
                     </Grid>
                 </TreeViewItem.Header>
-                <TreeViewItem Tag="AltCoinDecrypter">
+                <TreeViewItem Tag="AltCoin">
                     <TreeViewItem.Header>
                         <Grid>
                             <Grid.ColumnDefinitions>
@@ -386,9 +286,21 @@
                                 <ColumnDefinition SharedSizeGroup="Text" />
                             </Grid.ColumnDefinitions>
                             <materialDesign:PackIcon Kind="SteamBox" HorizontalAlignment="Center"/>
-                            <TextBlock Text="AltCoin Decrypter" Grid.Column="1" />
+                            <TextBlock Text="AltCoin" Grid.Column="1" />
                         </Grid>
                     </TreeViewItem.Header>
+                    <TreeViewItem Tag="AltCoinDecrypter">
+                        <TreeViewItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
+                                    <ColumnDefinition SharedSizeGroup="Text" />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="SteamBox" HorizontalAlignment="Center"/>
+                                <TextBlock Text="PlayerPrefs Decrypter" Grid.Column="1" Margin="20,0,0,0"/>
+                            </Grid>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
                 </TreeViewItem>
             </TreeViewItem>
             <TreeViewItem Tag="Achievements">
@@ -437,51 +349,7 @@
                     </TreeViewItem.Header>
                 </TreeViewItem>
             </TreeViewItem>
-            <TreeViewItem Tag="Configurations">
-                <TreeViewItem.Header>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                            <ColumnDefinition SharedSizeGroup="Text" />
-                        </Grid.ColumnDefinitions>
-                        <materialDesign:PackIcon Kind="Settings" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Configurations" Grid.Column="1" />
-                    </Grid>
-                </TreeViewItem.Header>
-                <TreeViewItem Tag="Pallete">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Pallete" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Configuration 2">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Configuration 2" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Configuration 3">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Configuration 3" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-            </TreeViewItem>
+
         </TreeView>
 
         <ContentPresenter Grid.Column="1" TextElement.FontSize="20" Content="{Binding SelectedItem}" />

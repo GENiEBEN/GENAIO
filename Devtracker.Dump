@@ -1,0 +1,15 @@
+
+
+14/01/2020 18:56:53 :
+System.Runtime.InteropServices.COMException (0x8000FFFF): Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+   at EnvDTE.Document.get_ProjectItem()
+   at DevTracker.Data.Solution.DevTrackerData.AddNewDataItem(Document document, ObservableCollection`1 list) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerDataSolution.cs:line 526
+   at DevTracker.Data.Solution.DevTrackerData.FindOrAddItem(Document document, ObservableCollection`1 list) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerDataSolution.cs:line 497
+   at DevTracker.DevTrackerToolWinControl.SwitchActiveItem(Document document) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinControl.xaml.cs:line 402
+
+14/01/2020 18:57:04 :
+System.Runtime.InteropServices.COMException (0x8000FFFF): Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+   at EnvDTE.Document.get_ProjectItem()
+   at DevTracker.Data.Solution.DevTrackerData.AddNewDataItem(Document document, ObservableCollection`1 list) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerDataSolution.cs:line 526
+   at DevTracker.Data.Solution.DevTrackerData.FindOrAddItem(Document document, ObservableCollection`1 list) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerDataSolution.cs:line 497
+   at DevTracker.DevTrackerToolWinControl.SwitchActiveItem(Document document) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinControl.xaml.cs:line 402

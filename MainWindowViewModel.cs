@@ -6,12 +6,29 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
-using System.Windows;
 
 namespace TreeViewMenu
 {
     public class MainWindowViewModel : ViewModelBase
     {
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private void OnItemSelected(object selectedItem)
+        {
+            switch (selectedItem.ToString())
+            {
+                case "AltCoinDecrypter":
+                    SelectedItem = new View_AltCoinDecrypter();
+                    break;
+                case "Steam":
+                    SelectedItem = new View_Ach_Steam();
+                    break;
+                default:
+                    SelectedItem = new View__Empty();
+                    break;
+            } 
+        }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         public ICommand ItemSelectedCommand { get; }
 
         private object _SelectedItem;
@@ -26,31 +43,6 @@ namespace TreeViewMenu
         public MainWindowViewModel()
         {
             ItemSelectedCommand = new RelayCommand<object>(OnItemSelected);
-
-
-        }
-
-        private void OnItemSelected(object selectedItem)
-        {
-            string tag = selectedItem.ToString();
-            
-            switch (tag)
-            {
-                case "AltCoinDecrypter":
-                    SelectedItem = new View_AltCoinDecrypter();
-                    break;
-                case "Steam":
-                    SelectedItem = new View_Ach_Steam();
-                    break;
-                default:
-                    SelectedItem = new View__Empty();
-                    break;
-
-            }
-
-
-
-            
         }
     }
 
