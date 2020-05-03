@@ -48,6 +48,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>TreeViewMenu.App</StartupObject>
@@ -116,6 +117,9 @@
     <Compile Include="pages\gamingtools\AltCoin\View_AltCoinDecrypter.xaml.cs">
       <DependentUpon>View_AltCoinDecrypter.xaml</DependentUpon>
     </Compile>
+    <Compile Include="pages\gamingtools\TrainStationRenovation\View_TrainStationRenovationProgress.xaml.cs">
+      <DependentUpon>View_TrainStationRenovationProgress.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pages\View__Empty.xaml.cs">
       <DependentUpon>View__Empty.xaml</DependentUpon>
     </Compile>
@@ -136,6 +140,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="pages\gamingtools\AltCoin\View_AltCoinDecrypter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\gamingtools\TrainStationRenovation\View_TrainStationRenovationProgress.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

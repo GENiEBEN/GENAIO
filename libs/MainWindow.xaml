@@ -14,7 +14,7 @@
         WindowStartupLocation="CenterScreen">
     <Controls:MetroWindow.RightWindowCommands>
         <Controls:WindowCommands>
-            <Button ToolTip="GitHub">
+            <Button ToolTip="GitHub" Click="GithubButton_Click">
                 <materialDesign:PackIcon Kind="GithubBox" />
             </Button>
         </Controls:WindowCommands>
@@ -278,6 +278,7 @@
                         <TextBlock Text="Game Specific Tools" Grid.Column="1" />
                     </Grid>
                 </TreeViewItem.Header>
+                <!-- GAMING TOOLS -->
                 <TreeViewItem Tag="AltCoin">
                     <TreeViewItem.Header>
                         <Grid>
@@ -302,53 +303,79 @@
                         </TreeViewItem.Header>
                     </TreeViewItem>
                 </TreeViewItem>
+                <TreeViewItem Tag="TrainStationRenovation">
+                    <TreeViewItem.Header>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
+                                <ColumnDefinition SharedSizeGroup="Text" />
+                            </Grid.ColumnDefinitions>
+                            <materialDesign:PackIcon Kind="TrainCar" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Train Station Renovation" Grid.Column="1" />
+                        </Grid>
+                    </TreeViewItem.Header>
+                    <TreeViewItem Tag="TrainStationRenovationProgress">
+                        <TreeViewItem.Header>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
+                                    <ColumnDefinition SharedSizeGroup="Text" />
+                                </Grid.ColumnDefinitions>
+                                <materialDesign:PackIcon Kind="Floppy" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Progress Indicator" Grid.Column="1" Margin="20,0,0,0"/>
+                            </Grid>
+                        </TreeViewItem.Header>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <!-- -->
             </TreeViewItem>
-            <TreeViewItem Tag="Achievements">
-                <TreeViewItem.Header>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                            <ColumnDefinition SharedSizeGroup="Text" />
-                        </Grid.ColumnDefinitions>
-                        <materialDesign:PackIcon Kind="Trophy" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Achievements" Grid.Column="1" />
-                    </Grid>
-                </TreeViewItem.Header>
-                <TreeViewItem Tag="Steam">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <materialDesign:PackIcon Kind="SteamBox" HorizontalAlignment="Center"/>
-                            <TextBlock Text="Steam" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Operations 2">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="RetroAchievements" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-                <TreeViewItem Tag="Operations 3">
-                    <TreeViewItem.Header>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition SharedSizeGroup="Icon" Width="35"/>
-                                <ColumnDefinition SharedSizeGroup="Text" />
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="GOG" Grid.Column="1" />
-                        </Grid>
-                    </TreeViewItem.Header>
-                </TreeViewItem>
-            </TreeViewItem>
+            
+            <!--<treeviewitem tag="achievements">
+                <treeviewitem.header>
+                    <grid>
+                        <grid.columndefinitions>
+                            <columndefinition sharedsizegroup="icon" width="35"/>
+                            <columndefinition sharedsizegroup="text" />
+                        </grid.columndefinitions>
+                        <materialdesign:packicon kind="trophy" horizontalalignment="center"/>
+                        <textblock text="achievements" grid.column="1" />
+                    </grid>
+                </treeviewitem.header>
+                <treeviewitem tag="steam">
+                    <treeviewitem.header>
+                        <grid>
+                            <grid.columndefinitions>
+                                <columndefinition sharedsizegroup="icon" width="35"/>
+                                <columndefinition sharedsizegroup="text" />
+                            </grid.columndefinitions>
+                            <materialdesign:packicon kind="steambox" horizontalalignment="center"/>
+                            <textblock text="steam" grid.column="1" />
+                        </grid>
+                    </treeviewitem.header>
+                </treeviewitem>
+                <treeviewitem tag="operations 2">
+                    <treeviewitem.header>
+                        <grid>
+                            <grid.columndefinitions>
+                                <columndefinition sharedsizegroup="icon" width="35"/>
+                                <columndefinition sharedsizegroup="text" />
+                            </grid.columndefinitions>
+                            <textblock text="retroachievements" grid.column="1" />
+                        </grid>
+                    </treeviewitem.header>
+                </treeviewitem>
+                <treeviewitem tag="operations 3">
+                    <treeviewitem.header>
+                        <grid>
+                            <grid.columndefinitions>
+                                <columndefinition sharedsizegroup="icon" width="35"/>
+                                <columndefinition sharedsizegroup="text" />
+                            </grid.columndefinitions>
+                            <textblock text="gog" grid.column="1" />
+                        </grid>
+                    </treeviewitem.header>
+                </treeviewitem>
+            </treeviewitem>-->
 
         </TreeView>
 

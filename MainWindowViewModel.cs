@@ -17,6 +17,9 @@ namespace TreeViewMenu
         {
             switch (selectedItem.ToString())
             {
+                case "TrainStationRenovationProgress":
+                    SelectedItem = new View_TrainStationRenovationProgress();
+                    break;
                 case "AltCoinDecrypter":
                     SelectedItem = new View_AltCoinDecrypter();
                     break;
